@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 958px;
+    margin: auto;
+}
+
+.content {
+    background-color: #fdf1e5;
+    padding: 20px 0;
+}
+
+.titleProducts {
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #94866d;
+    width: 80%;
+}
+
+.product {
+
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 20px;
+    background-color: #f5f0eb;
+    border: 1px solid #94866d;
+    border-radius: 15px;
+}
+
+.product:not(:last-child) {
+    margin-right: 20px;
+}
+
+.flex {
+    padding: 25px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    margin: auto;
+    border-bottom: 2px solid #93898a;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.sort {
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0;
+    margin-right: 25px;
+}
+
+select,
+option,
+.sortBtn {
+    width: 25%;
+    padding: 5px 10px;
+}
+
+select {
+    margin-right: 25px;
+}
+
+.sortBtn {
+    border-radius: 5px;
+}
+
+.close {
+    display: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.temp {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.res {
+    text-align: center;
+}
