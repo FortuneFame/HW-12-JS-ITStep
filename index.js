@@ -6,7 +6,7 @@ function byField(field) {
 
 const select = document.getElementById('select');
 const sortBtn = document.getElementById('sortBtn');
-const result1 = document.getElementById('result1').innerHTML;
+const result1 = document.getElementById('result1');
 const defaultList = document.getElementById('default');
 
 let list = [
@@ -96,7 +96,7 @@ sortBtn.addEventListener('click', () => {
             result += `<div class='product'><p> #${list.id}</p><h2>${list.name}</h2><p>${list.price}</p></div>`;
         })
     };
-    result1 = result;
+    result1.innerHTML = result;
 });
 
 
